@@ -1,5 +1,5 @@
 /* 
- *  Copyright (c) 2008, Alessandro Decina <alessandro.d@gmail.com>
+ *  Copyright (c) 2009, Alessandro Decina <alessandro.d@gmail.com>
  * 
  *  This program is free software; you can redistribute it and/or
  *  modify it under the terms of the GNU Lesser General Public
@@ -107,7 +107,8 @@ static SExt *instance;
         NSUInteger modifiers = [event modifierFlags] & \
             NSDeviceIndependentModifierFlagsMask;
 
-        if (modifiers == NSAlternateKeyMask) {
+        /* FIXME: disable Alt-N for the time being */	
+        if (NO && modifiers == NSAlternateKeyMask) {
           /* create a new event and change the modifier from NSAlternateKeyMask
            * to NSCommandKeyMask. We'll then forward the event to the
            * originalSendEvent: which will implement switch to bookmark N */

@@ -1,5 +1,5 @@
 /* 
- *  Copyright (c) 2008, Alessandro Decina <alessandro.d@gmail.com>
+ *  Copyright (c) 2009, Alessandro Decina <alessandro.d@gmail.com>
  * 
  *  This program is free software; you can redistribute it and/or
  *  modify it under the terms of the GNU Lesser General Public
